@@ -1,0 +1,19 @@
+{
+  "name": "@faizanhaider/iconsax",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faizan Haider",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikfaizanhaider/iconsax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikfaizanhaider/iconsax/issues"
+  },
+  "homepage": "https://github.com/malikfaizanhaider/iconsax#readme",
+  "description": ""
+}
