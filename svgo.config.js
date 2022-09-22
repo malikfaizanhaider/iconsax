@@ -64,7 +64,7 @@ module.exports = {
                 // hence why we remove the attributes and add them back
                 node.attributes = {}
                 for (const [key, value] of Object.entries(params.attributes)) {
-                  node.attributes[key] = key === 'class' ? `bi bi-${basename}` : value
+                  node.attributes[key] = key === 'class' ? `isax isax-${basename}` : value
                 }
               }
             }
