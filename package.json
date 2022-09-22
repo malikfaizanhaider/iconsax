@@ -1,9 +1,10 @@
 {
   "name": "@faizanhaider/iconsax",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "icons-sprite": "svg-sprite --config svg-sprite.json --log=info icons/**/*.svg",
+    "icons-font": "fantasticon"
   },
   "author": "Faizan Haider",
   "license": "MIT",
@@ -15,5 +16,30 @@
     "url": "https://github.com/malikfaizanhaider/iconsax/issues"
   },
   "homepage": "https://github.com/malikfaizanhaider/iconsax#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.23.0",
+    "fantasticon": "^1.2.3",
+    "find-unused-sass-variables": "^4.0.4",
+    "hugo-bin": "^0.89.0",
+    "lockfile-lint": "^4.8.0",
+    "npm-run-all": "^4.1.5",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "purgecss": "^4.1.3",
+    "stylelint": "^14.11.0",
+    "svg-sprite": "^1.5.4",
+    "svgo": "^2.8.0",
+    "vnu-jar": "21.10.12",
+    "stylelint-config-twbs-bootstrap": "^5.0.0"
+  },
+  "files": [
+    "icons/**/*.svg",
+    "iconsax-sprite.svg",
+    "font",
+    "!.DS_Store"
+  ]
 }
