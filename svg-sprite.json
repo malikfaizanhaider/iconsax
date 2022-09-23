@@ -2,7 +2,7 @@
   "mode": {
     "symbol": {
       "dest": ".",
-      "sprite": "iconsax.svg"
+      "sprite": "iconsax-sprite.svg"
     }
   },
   "svg": {
