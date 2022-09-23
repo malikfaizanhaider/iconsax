@@ -2,11 +2,11 @@
   "mode": {
     "symbol": {
       "dest": ".",
-      "sprite": "iconsax-sprite.svg"
+      "sprite": "iconsax.svg"
     }
   },
   "svg": {
-    "namespaceClassnames": false,
+    "namespaceClassnames": true,
     "xmlDeclaration": false
   },
   "shape": {

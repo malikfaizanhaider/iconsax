@@ -9,8 +9,8 @@ module.exports = {
   assetTypes: ['css', 'scss', 'json'],
   name: 'iconsax',
   codepoints,
-  prefix: 'bi',
-  selector: '.bi',
+  prefix: 'isax',
+  selector: '.isax',
   fontsUrl: './font',
   formatOptions: {
     json: {

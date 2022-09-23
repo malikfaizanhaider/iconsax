@@ -45,7 +45,7 @@ module.exports = {
           width: '16',
           height: '16',
           fill: 'currentColor',
-          class: '', // We replace the class with the correct one based on filename later
+          class: '  ', //We replace the class with the correct one based on filename later
           viewBox: '0 0 16 16'
         }
       },
