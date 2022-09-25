@@ -1,6 +1,6 @@
 {
   "mode": {
-    "symbol": {
+    "defs": {
       "inline": true,
       "dest": ".",
       "sprite": "iconsax-sprite.svg"
@@ -12,8 +12,9 @@
   },
   "shape": {
     "id": {
-      "separator": "-",
-      "generator": "%s"
+      "separator": "%s",
+      "generator": "%s",
+      "class": "%s"
     },
     "transform": [
       {
