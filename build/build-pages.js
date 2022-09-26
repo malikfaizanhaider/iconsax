@@ -6,8 +6,8 @@ const fs = require('fs').promises
 const path = require('path')
 const picocolors = require('picocolors')
 
-const iconsDir = path.join(__dirname, '../icons/')
-const pagesDir = path.join(__dirname, '../docs/content/icons/')
+const iconsDir = path.join(__dirname, '../src/')
+const pagesDir = path.join(__dirname, '../docs/content/src/')
 
 const VERBOSE = process.argv.includes('--verbose')
 

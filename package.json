@@ -5,7 +5,7 @@
   "scripts": {
     "icons": "npm-run-all icons-main --aggregate-output --parallel icons-sprite icons-font",
     "icons-main": "node build/build-svgs.js",
-    "icons-sprite": "svg-sprite --config svg-sprite.json --log=info icons/broken/*.svg && icons/linear/*.svg ",
+    "icons-sprite": "svg-sprite --config svg-sprite.json --log=info src/broken/*.svg && src/linear/*.svg ",
     "icons-font": "fantasticon"
   },
   "author": "Faizan Haider",
@@ -40,7 +40,7 @@
     "vnu-jar": "21.10.12"
   },
   "files": [
-    "icons/**/*.svg",
+    "src/**/*.svg",
     "iconsax-sprite.svg",
     "font",
     "!.DS_Store"

@@ -3,7 +3,7 @@ const {cleanupListOfValues, sortAttrs} = require("svgo/plugins/plugins")
 const gulp = require('gulp'),
   svgSprite = require('gulp-svg-sprite'),
   plumber = require('gulp-plumber'),
-  baseDir = 'icons/',   // <-- Set to your SVG base directory
+  baseDir = 'src/',   // <-- Set to your SVG base directory
   svgGlob = '**/*.svg',       // <-- Glob to match your SVG files
   outDir = '.',     // <-- Main output directory
   config = {
@@ -118,7 +118,7 @@ const gulp = require('gulp'),
       meta: '.'
     },
     variables: {
-      mapname: 'icons',
+      mapname: 'src',
     }
   }
 const path = require("path")

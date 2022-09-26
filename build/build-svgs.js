@@ -8,7 +8,7 @@ const process = require('process')
 const picocolors = require('picocolors')
 const { loadConfig, optimize } = require('svgo')
 
-const iconsDir = path.join(__dirname, '../icons/')
+const iconsDir = path.join(__dirname, '../src/')
 
 const VERBOSE = process.argv.includes('--verbose')
 

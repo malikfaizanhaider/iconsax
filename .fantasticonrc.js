@@ -3,7 +3,7 @@
 const codepoints = require('./font/iconsax.json')
 
 module.exports = {
-  inputDir: './icons', // (required)
+  inputDir: './src', // (required)
   outputDir: './font', // (required)
   fontTypes: ['woff2', 'woff'],
   assetTypes: ['css', 'scss', 'json'],
