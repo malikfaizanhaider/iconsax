@@ -1,6 +1,6 @@
 {
   "name": "@faizanhaider/iconsax",
-  "version": "0.3.5",
+  "version": "0.4.5",
   "main": "index.js",
   "scripts": {
     "icons": "npm-run-all icons-main --aggregate-output --parallel icons-sprite icons-font",
