@@ -11,7 +11,7 @@ module.exports = {
   codepoints,
   prefix: 'isax',
   selector: '.isax',
-  fontsUrl: './font',
+  fontsUrl: './fonts',
   formatOptions: {
     json: {
       indent: 2

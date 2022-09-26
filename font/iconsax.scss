@@ -1,5 +1,5 @@
 $iconsax-font: "iconsax" !default;
-$iconsax-font-dir: "./font" !default;
+$iconsax-font-dir: "./fonts" !default;
 $iconsax-font-file: #{$iconsax-font-dir}/#{$iconsax-font} !default;
 $iconsax-font-hash: "56c0f95873eb8a64dba9b6190f3e25c4" !default;
 $iconsax-font-src: url("#{$iconsax-font-file}.woff2?#{$iconsax-font-hash}") format("woff2"), url("#{$iconsax-font-file}.woff?#{$iconsax-font-hash}") format("woff") !default;
