@@ -1,10 +1,11 @@
 'use strict'
+
 const gulp = require('gulp'),
   svgSprite = require('gulp-svg-sprite'),
   plumber = require('gulp-plumber'),
-  baseDir = 'src/',   // <-- Set to your SVG base directory
-  svgGlob = '**/*.svg',       // <-- Glob to match your SVG files
-  outDir = '.',     // <-- Main output directory
+  baseDir = 'src/',
+  svgGlob = '**/*.svg',
+  outDir = '.',
   config = {
     log: "info",
     svg: {
@@ -31,7 +32,6 @@ const gulp = require('gulp'),
         separator: "-",
         generator: "%s",
       },
-      // import svgo config from file
       transform: [{}],
       dimension: {
         maxWidth: 24,
@@ -47,22 +47,26 @@ const gulp = require('gulp'),
     }
   }
 
-// make svgo config
 const svgoConfig = {
   plugins: [
     {
+      addAttributesToSVGElement: {
+        attribute: 'focusable="false"'
+      }
+    },
+    {
       convertColors: {
-        currentColor: true
+        currentColor: true,
       }
     }
   ]
 }
 
-// set svgo config
-config.shape.transform[0].svgo = svgoConfig
+const svgo = require('gulp-svgo')(svgoConfig)
 
 gulp.task('svgSprite', function () {
   return gulp.src(svgGlob, {cwd: baseDir})
+    .pipe(svgo)
     .pipe(plumber())
     .pipe(svgSprite(config)).on('error', function (error) {
       console.log(error)
