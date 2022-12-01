@@ -5423,6 +5423,43 @@ $iconsax-map: (
   "twotone-wind-2": "\10613",
   "twotone-wind": "\10614",
   "twotone-woman": "\10615",
+  "cs-bold-indicator": "\10616",
+  "cs-bold-new-issues": "\10617",
+  "cs-bold-scheduled-rooms": "\10618",
+  "cs-bold-total-issues": "\10619",
+  "cs-broken-search": "\1061a",
+  "cs-bulk-available-rooms": "\1061b",
+  "cs-bulk-total-rooms": "\1061c",
+  "cs-linear-alert-circle": "\1061d",
+  "cs-linear-all-issues": "\1061e",
+  "cs-linear-available": "\1061f",
+  "cs-linear-busy": "\10620",
+  "cs-linear-check": "\10621",
+  "cs-linear-chevron-down": "\10622",
+  "cs-linear-chevron-left-double": "\10623",
+  "cs-linear-chevron-left": "\10624",
+  "cs-linear-chevron-right-double": "\10625",
+  "cs-linear-chevron-right": "\10626",
+  "cs-linear-chevron-up": "\10627",
+  "cs-linear-close": "\10628",
+  "cs-linear-codepen": "\10629",
+  "cs-linear-dots-horizontal": "\1062a",
+  "cs-linear-dots-vertical": "\1062b",
+  "cs-linear-help-circle": "\1062c",
+  "cs-linear-info": "\1062d",
+  "cs-linear-layers-three": "\1062e",
+  "cs-linear-layers-two": "\1062f",
+  "cs-linear-minus": "\10630",
+  "cs-linear-placeholder": "\10631",
+  "cs-linear-plus": "\10632",
+  "cs-linear-rocket": "\10633",
+  "cs-linear-rooms": "\10634",
+  "cs-linear-scheduled": "\10635",
+  "cs-linear-search": "\10636",
+  "cs-linear-slash-divider": "\10637",
+  "cs-linear-zap": "\10638",
+  "cs-outline-search": "\10639",
+  "cs-twotone-search": "\1063a",
 );
 
 .isax-bold-24-support::before { content: map-get($iconsax-map, "bold-24-support"); }
@@ -10822,3 +10859,40 @@ $iconsax-map: (
 .isax-twotone-wind-2::before { content: map-get($iconsax-map, "twotone-wind-2"); }
 .isax-twotone-wind::before { content: map-get($iconsax-map, "twotone-wind"); }
 .isax-twotone-woman::before { content: map-get($iconsax-map, "twotone-woman"); }
+.isax-cs-bold-indicator::before { content: map-get($iconsax-map, "cs-bold-indicator"); }
+.isax-cs-bold-new-issues::before { content: map-get($iconsax-map, "cs-bold-new-issues"); }
+.isax-cs-bold-scheduled-rooms::before { content: map-get($iconsax-map, "cs-bold-scheduled-rooms"); }
+.isax-cs-bold-total-issues::before { content: map-get($iconsax-map, "cs-bold-total-issues"); }
+.isax-cs-broken-search::before { content: map-get($iconsax-map, "cs-broken-search"); }
+.isax-cs-bulk-available-rooms::before { content: map-get($iconsax-map, "cs-bulk-available-rooms"); }
+.isax-cs-bulk-total-rooms::before { content: map-get($iconsax-map, "cs-bulk-total-rooms"); }
+.isax-cs-linear-alert-circle::before { content: map-get($iconsax-map, "cs-linear-alert-circle"); }
+.isax-cs-linear-all-issues::before { content: map-get($iconsax-map, "cs-linear-all-issues"); }
+.isax-cs-linear-available::before { content: map-get($iconsax-map, "cs-linear-available"); }
+.isax-cs-linear-busy::before { content: map-get($iconsax-map, "cs-linear-busy"); }
+.isax-cs-linear-check::before { content: map-get($iconsax-map, "cs-linear-check"); }
+.isax-cs-linear-chevron-down::before { content: map-get($iconsax-map, "cs-linear-chevron-down"); }
+.isax-cs-linear-chevron-left-double::before { content: map-get($iconsax-map, "cs-linear-chevron-left-double"); }
+.isax-cs-linear-chevron-left::before { content: map-get($iconsax-map, "cs-linear-chevron-left"); }
+.isax-cs-linear-chevron-right-double::before { content: map-get($iconsax-map, "cs-linear-chevron-right-double"); }
+.isax-cs-linear-chevron-right::before { content: map-get($iconsax-map, "cs-linear-chevron-right"); }
+.isax-cs-linear-chevron-up::before { content: map-get($iconsax-map, "cs-linear-chevron-up"); }
+.isax-cs-linear-close::before { content: map-get($iconsax-map, "cs-linear-close"); }
+.isax-cs-linear-codepen::before { content: map-get($iconsax-map, "cs-linear-codepen"); }
+.isax-cs-linear-dots-horizontal::before { content: map-get($iconsax-map, "cs-linear-dots-horizontal"); }
+.isax-cs-linear-dots-vertical::before { content: map-get($iconsax-map, "cs-linear-dots-vertical"); }
+.isax-cs-linear-help-circle::before { content: map-get($iconsax-map, "cs-linear-help-circle"); }
+.isax-cs-linear-info::before { content: map-get($iconsax-map, "cs-linear-info"); }
+.isax-cs-linear-layers-three::before { content: map-get($iconsax-map, "cs-linear-layers-three"); }
+.isax-cs-linear-layers-two::before { content: map-get($iconsax-map, "cs-linear-layers-two"); }
+.isax-cs-linear-minus::before { content: map-get($iconsax-map, "cs-linear-minus"); }
+.isax-cs-linear-placeholder::before { content: map-get($iconsax-map, "cs-linear-placeholder"); }
+.isax-cs-linear-plus::before { content: map-get($iconsax-map, "cs-linear-plus"); }
+.isax-cs-linear-rocket::before { content: map-get($iconsax-map, "cs-linear-rocket"); }
+.isax-cs-linear-rooms::before { content: map-get($iconsax-map, "cs-linear-rooms"); }
+.isax-cs-linear-scheduled::before { content: map-get($iconsax-map, "cs-linear-scheduled"); }
+.isax-cs-linear-search::before { content: map-get($iconsax-map, "cs-linear-search"); }
+.isax-cs-linear-slash-divider::before { content: map-get($iconsax-map, "cs-linear-slash-divider"); }
+.isax-cs-linear-zap::before { content: map-get($iconsax-map, "cs-linear-zap"); }
+.isax-cs-outline-search::before { content: map-get($iconsax-map, "cs-outline-search"); }
+.isax-cs-twotone-search::before { content: map-get($iconsax-map, "cs-twotone-search"); }

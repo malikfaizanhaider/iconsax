@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "iconsax";
-  src: url("./fonts/iconsax.woff2?ada7bfdce8987e672078aefb7a02b6be") format("woff2"),
-url("./fonts/iconsax.woff?ada7bfdce8987e672078aefb7a02b6be") format("woff");
+  src: url("./fonts/iconsax.woff2?27a7e60f6f991a7d75bfc06329dbda41") format("woff2"),
+url("./fonts/iconsax.woff?27a7e60f6f991a7d75bfc06329dbda41") format("woff");
 }
 
 .isax::before,
@@ -5417,3 +5417,40 @@ url("./fonts/iconsax.woff?ada7bfdce8987e672078aefb7a02b6be") format("woff");
 .isax-twotone-wind-2::before { content: "\10613"; }
 .isax-twotone-wind::before { content: "\10614"; }
 .isax-twotone-woman::before { content: "\10615"; }
+.isax-cs-bold-indicator::before { content: "\10616"; }
+.isax-cs-bold-new-issues::before { content: "\10617"; }
+.isax-cs-bold-scheduled-rooms::before { content: "\10618"; }
+.isax-cs-bold-total-issues::before { content: "\10619"; }
+.isax-cs-broken-search::before { content: "\1061a"; }
+.isax-cs-bulk-available-rooms::before { content: "\1061b"; }
+.isax-cs-bulk-total-rooms::before { content: "\1061c"; }
+.isax-cs-linear-alert-circle::before { content: "\1061d"; }
+.isax-cs-linear-all-issues::before { content: "\1061e"; }
+.isax-cs-linear-available::before { content: "\1061f"; }
+.isax-cs-linear-busy::before { content: "\10620"; }
+.isax-cs-linear-check::before { content: "\10621"; }
+.isax-cs-linear-chevron-down::before { content: "\10622"; }
+.isax-cs-linear-chevron-left-double::before { content: "\10623"; }
+.isax-cs-linear-chevron-left::before { content: "\10624"; }
+.isax-cs-linear-chevron-right-double::before { content: "\10625"; }
+.isax-cs-linear-chevron-right::before { content: "\10626"; }
+.isax-cs-linear-chevron-up::before { content: "\10627"; }
+.isax-cs-linear-close::before { content: "\10628"; }
+.isax-cs-linear-codepen::before { content: "\10629"; }
+.isax-cs-linear-dots-horizontal::before { content: "\1062a"; }
+.isax-cs-linear-dots-vertical::before { content: "\1062b"; }
+.isax-cs-linear-help-circle::before { content: "\1062c"; }
+.isax-cs-linear-info::before { content: "\1062d"; }
+.isax-cs-linear-layers-three::before { content: "\1062e"; }
+.isax-cs-linear-layers-two::before { content: "\1062f"; }
+.isax-cs-linear-minus::before { content: "\10630"; }
+.isax-cs-linear-placeholder::before { content: "\10631"; }
+.isax-cs-linear-plus::before { content: "\10632"; }
+.isax-cs-linear-rocket::before { content: "\10633"; }
+.isax-cs-linear-rooms::before { content: "\10634"; }
+.isax-cs-linear-scheduled::before { content: "\10635"; }
+.isax-cs-linear-search::before { content: "\10636"; }
+.isax-cs-linear-slash-divider::before { content: "\10637"; }
+.isax-cs-linear-zap::before { content: "\10638"; }
+.isax-cs-outline-search::before { content: "\10639"; }
+.isax-cs-twotone-search::before { content: "\1063a"; }
