@@ -21,7 +21,7 @@ module.exports = {
   templates: {
     css: './build/font/css.hbs',
     scss: './build/font/scss.hbs',
-    html: './build/font/html.hbs'
+    html: './build/font/html.hbs',
   },
   pathOptions: {
     json: './font/iconsax.json',
